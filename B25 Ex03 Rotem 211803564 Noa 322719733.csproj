@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{085C4223-817F-499A-BE2C-5A22A1AC1CFE}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>B25_Ex03_Rotem_211803564_Noa_322719733</RootNamespace>
+    <AssemblyName>B25 Ex03 Rotem 211803564 Noa 322719733</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="Ex03.ConsoleUI\App.config" />
+    <None Include="Ex03.ConsoleUI\bin\Debug\Ex03.ConsoleUI.exe.config" />
+    <None Include="Ex03.ConsoleUI\bin\Debug\Ex03.GarageLogic.dll.config" />
+    <None Include="Ex03.ConsoleUI\bin\Debug\Vehicles.db" />
+    <None Include="Ex03.ConsoleUI\Ex03.ConsoleUI.csproj" />
+    <None Include="Ex03.ConsoleUI\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Ex03.ConsoleUI\obj\Debug\Ex03.Con.97A6B4C2.Up2Date" />
+    <None Include="Ex03.ConsoleUI\obj\Debug\Ex03.ConsoleUI.csproj.AssemblyReference.cache" />
+    <None Include="Ex03.ConsoleUI\obj\Debug\Ex03.ConsoleUI.csproj.CoreCompileInputs.cache" />
+    <None Include="Ex03.GarageLogic\App.config" />
+    <None Include="Ex03.GarageLogic\bin\Debug\Ex03.GarageLogic.dll.config" />
+    <None Include="Ex03.GarageLogic\bin\Debug\Vehicles.db" />
+    <None Include="Ex03.GarageLogic\Ex03.GarageLogic.csproj" />
+    <None Include="Ex03.GarageLogic\obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="Ex03.GarageLogic\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Ex03.GarageLogic\obj\Debug\Ex03.GarageLogic.csproj.AssemblyReference.cache" />
+    <None Include="Ex03.GarageLogic\obj\Debug\Ex03.GarageLogic.csproj.CoreCompileInputs.cache" />
+    <None Include="Ex03.GarageLogic\Vehicles.db" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ex03.ConsoleUI\obj\Debug\.NETFramework,Version=v4.8.AssemblyAttributes.cs" />
+    <Compile Include="Ex03.ConsoleUI\Program.cs" />
+    <Compile Include="Ex03.GarageLogic\Car.cs" />
+    <Compile Include="Ex03.GarageLogic\ElectricCar.cs" />
+    <Compile Include="Ex03.GarageLogic\ElectricEngine.cs" />
+    <Compile Include="Ex03.GarageLogic\ElectricMotorcycle.cs" />
+    <Compile Include="Ex03.GarageLogic\Enum.cs" />
+    <Compile Include="Ex03.GarageLogic\FuelCar.cs" />
+    <Compile Include="Ex03.GarageLogic\FuelEngine.cs" />
+    <Compile Include="Ex03.GarageLogic\FuelMotorcycle.cs" />
+    <Compile Include="Ex03.GarageLogic\GarageManager.cs" />
+    <Compile Include="Ex03.GarageLogic\Motorcycle.cs" />
+    <Compile Include="Ex03.GarageLogic\obj\Debug\.NETFramework,Version=v4.8.AssemblyAttributes.cs" />
+    <Compile Include="Ex03.GarageLogic\Truck.cs" />
+    <Compile Include="Ex03.GarageLogic\Vehicle.cs" />
+    <Compile Include="Ex03.GarageLogic\VehicleCreator.cs" />
+    <Compile Include="Ex03.GarageLogic\VehicleRecord.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ex03.ConsoleUI\bin\Debug\Ex03.ConsoleUI.exe" />
+    <Content Include="Ex03.ConsoleUI\bin\Debug\Ex03.ConsoleUI.pdb" />
+    <Content Include="Ex03.ConsoleUI\bin\Debug\Ex03.GarageLogic.dll" />
+    <Content Include="Ex03.ConsoleUI\bin\Debug\Ex03.GarageLogic.pdb" />
+    <Content Include="Ex03.ConsoleUI\obj\Debug\Ex03.ConsoleUI.csproj.FileListAbsolute.txt" />
+    <Content Include="Ex03.ConsoleUI\obj\Debug\Ex03.ConsoleUI.exe" />
+    <Content Include="Ex03.ConsoleUI\obj\Debug\Ex03.ConsoleUI.pdb" />
+    <Content Include="Ex03.GarageLogic\bin\Debug\Ex03.GarageLogic.dll" />
+    <Content Include="Ex03.GarageLogic\bin\Debug\Ex03.GarageLogic.pdb" />
+    <Content Include="Ex03.GarageLogic\obj\Debug\Ex03.GarageLogic.csproj.FileListAbsolute.txt" />
+    <Content Include="Ex03.GarageLogic\obj\Debug\Ex03.GarageLogic.dll" />
+    <Content Include="Ex03.GarageLogic\obj\Debug\Ex03.GarageLogic.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Ex03.ConsoleUI\obj\Debug\TempPE\" />
+    <Folder Include="Ex03.GarageLogic\bin\Release\" />
+    <Folder Include="Ex03.GarageLogic\obj\Debug\TempPE\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
